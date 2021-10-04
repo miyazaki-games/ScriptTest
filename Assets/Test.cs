@@ -34,7 +34,7 @@ public class Test : MonoBehaviour
         }
 
         // 逆順表示
-        for (int j = 5; j < 6 && j > -1; j--)
+        for (int j = 5; j > -1; j--)
         {
             Debug.Log("逆順表示: " + array[j]);
         }
@@ -43,10 +43,7 @@ public class Test : MonoBehaviour
 
         for (int i = 0; i < 10; i++)
         {
-            if (i < 10)
-            {
-                boss.Magic();
-            }
+            boss.Magic();
         }
 
         boss.Magic();
